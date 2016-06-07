@@ -863,6 +863,7 @@ label {
 
 	@media all and (min-width: 320px) and (max-width:359px) {
 
+	
 		.tagbottom {
 			display:none;
 		}
@@ -1840,13 +1841,13 @@ h2 {
     width: 100%;
     background-repeat: repeat-x;
     background-position: left bottom;
-    background-image: url("https://ec.europa.eu/programmes/creative-europe/profiles/multisite_drupal_standard/themes/ec_resp/images/title/title.gif");
+    background-image: url("../images/title.gif");
     position: relative;
     z-index: 10;
     min-height: 145px;
     background-color: #fff;
     line-height: 1.4;
-}	
+}
 
 
 
@@ -1974,15 +1975,16 @@ h2 {
     text-decoration: none;
 }
 
-@media screen and (min-width: 62em)
-#path {
-    display: block;
+@media screen and (min-width: 62em) {
+	#path {
+	    display: block;
+	}
 }
-@media screen and (min-width: 48em)
-#path {
-    display: none;
+@media screen and (min-width: 48em) {
+	#path {
+	    display: none;
+	}
 }
-
 #path {
     font-size: 100%;
     background-color: #074A8B;
@@ -2047,44 +2049,57 @@ ul.menu {
 }
 
 .menu-mobile {
-    background-color: #fff !important;
-    display: block;
-    width: 100%;
-    height: 60px;
-    padding: 8px 0;
-    box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+  display:none;
 }
 
-.menu-mobile li {
-    display: inline-block;
-    color: #fff;
-    padding: 0;
-}
 
-.menu-mobile li.heading-nav-bar {
-    padding: 10px 0;
-}
+@media screen and (max-width:992px) {
 
-.menu-mobile li {
-    display: inline-block;
-    color: #fff;
-    padding: 0;
-}
-
-.menu-mobile li.heading-nav-bar h1 {
-    float: left;
-    font-size: 1.2em !important;
-    margin: 0 !important;
-    color: #074A8B;
-}
-
-.ec-flat-logo {
-    max-width: 100px;
-}
-
-.ec-flat-logo {
-    width: 80%;
-    float: right;
-    padding-right: 15px;
-    display: block;
+	ul.menu-mobile {
+			margin-bottom:1px;
+		}
+	.menu-mobile {
+		    background-color: #fff !important;
+		    display: block;
+		    width: 100%;
+		    height: 60px;
+		    padding: 8px 0;
+		    box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+		}
+		
+		.menu-mobile li {
+		    display: inline-block;
+		    color: #fff;
+		    padding: 0;
+		}
+		
+		.menu-mobile li.heading-nav-bar {
+		    padding: 10px 0;
+		}
+		
+		.menu-mobile li {
+		    display: inline-block;
+		    color: #fff;
+		    padding: 0;
+		}
+		
+		.menu-mobile li.heading-nav-bar h1 {
+		    float: left;
+		    font-size: 18PX !important;
+		    margin: 0 !important;
+		    color: #074A8B;
+		    margin-left:15px !important;
+		    font-family: 'ec_square_sans_cond_probold', Verdana, Arial, Helvetica, 'DejaVu Sans', sans-serif;
+		}
+		
+		.ec-flat-logo {
+		    max-width: 100px;
+		}
+		
+		.ec-flat-logo {
+		    width: 80%;
+		    float: right;
+		    padding-right: 5px;
+		    display: block;
+		}
 }
