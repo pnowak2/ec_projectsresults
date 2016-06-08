@@ -4,6 +4,7 @@
 <html lang="en">
 <head>
 <title>Dissemination Platform - Creative Europe</title>
+<meta name="theme-color" content="#000000" />
 <!--START: SEO Meta -->
 <meta content="TO BE DEFINED" name="description">
 <meta content="EUROPA/SITE_NAME" name="reference">
@@ -16,13 +17,6 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-<!-- END: Meta -->  
-<script>
-document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
-':35729/livereload.js?snipver=1"></' + 'script>')
-</script>
-
 <!--Start: CSS-->
 <link rel="stylesheet" type="text/css" href="stylesheets/ec.css" media="all">
 <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
@@ -52,7 +46,7 @@ document.write('<script src="http://' + (location.host || 'localhost').split(':'
 </head>
 
 <body class="euShortContent">
-<!-- Start menu -->
+<!-- Start : Main menu -->
 <div id="layout-header" class="hidden-xs hidden-sm">
   <div class="container">
     <div class="europa-tools">
@@ -77,9 +71,13 @@ document.write('<script src="http://' + (location.host || 'localhost').split(':'
     </div>
   </div>
 </div>
-<!-- End menu -->
+<div id="path" class="hidden-xs">
+  <div class="container">
+    <div class="menu menu-breadcrumb"><a href="http://ec.europa.eu/index_en.htm" data-display-title="1" data-remove-class="1" class="">European Commission</a><span class="easy-breadcrumb_segment-separator"> &gt; </span><a href="http://ec.europa.eu/programmes/creative-europe/" data-display-title="1" data-remove-class="1" class="active">Creative Europe</a> &gt; Projects Results</div>  </div>
+</div>
+<!-- End : Main menu -->
 
-<!-- Mobile Menu -->
+<!-- Start : Mobile Menu -->
 <ul class="menu-mobile">
   <li class="heading-nav-bar col-xs-7">
     <h1>Creative Europe</h1>
@@ -88,257 +86,248 @@ document.write('<script src="http://' + (location.host || 'localhost').split(':'
     <img class="ec-flat-logo" src="images/mobile-flat-ec-logo.svg" alt="Creative-Europe Projects Results">
   </li>
 </ul>
+<!-- End : Mobile Menu -->
 
-
+<!-- Start : Main Layout -->
 
 <div class="layout" id="layout">
-<!--START: Banner area-->
-<div class="jumbotron mega-banner">
-<!--START: Container-->
-<div class="container">
-       <!-- START: Site menu -->
-  <div class="row ecFontReg menulinks">
-    <!-- START: Left site menu -->
-    <div class="col-md-6 col-xs-6 fitemmenu">
-      <a href="#" class="mitem">
-        <i class="flaticon-house204"></i>
-      </a>
-      <a href="#" class="mitem">
-        Legal issues
-      </a>
-    </div>
-    <!-- END: Left site menu -->
-    <!-- START: Right site menu -->
-    <div class="col-md-4 col-md-offset-2 smenu" style="text-align:right;">
-      <a href="#">
-        <i class="flaticon-key60"></i>Login
-      </a>
-      <a href="#">
-        <i class="flaticon-help15"></i>Help
-      </a>
-      <!--<a href="#" class="calltoaction">
-        <i class="flaticon-euro57"></i><strong>Get funding</strong>
-      </a> -->
-    </div>
-    <!-- END: Right site menu -->
-  </div>
-  <!-- END: Left site menu -->
-  <!-- START: Get inspired section -->
-  <div align="center" class="marg-md-120 marg-xs-50 h_02">
-    <carrouselTitle>Creative Europe Project results</carrouselTitle><br/><br/>
-    <carrouselSubtitle>Find projects supported by the European Commission</carrouselSubtitle><br/><br/>
-  </div>
-  <!-- END: Get inspired section -->
-  <!-- START: Search wrapper -->
-<div class="search-wrapper" >
-  <!-- START: Search wrapper container -->
-  <div class="search-wrapper-container">
-    <form role="search" id="configform">
-      <input type="search" class="col-md-10 col-xs-4 searchEngineInput" name="search" placeholder="What kind of project do you search? (ex: Project name)" autocomplete="on" required/>
-      <input type="submit" value="Search" class="col-md-1"/>
-      <div class="advancedfilters" onClick="showAdvancedSearch(Div_1)" align="center">
-        or show/hide the advanced filters<br/>▼
-      </div>
-    </div>
-    <!-- END: Search wrapper container -->
-    <!-- START: Advanced Search -->
-    <div class="container" id="Div_1" style="display:none;">
-      <div class="search-padding row">
-        <div class="col-md-1 search-marg-bottom search-by">
-          <strong>Search by</strong> 
+  <!--START: Banner area-->
+  <div class="jumbotron mega-banner">
+    <div class="container">
+      <!-- START : Menu -->
+      <div class="row ecFontReg menulinks">
+        <div class="col-md-6 col-xs-6 fitemmenu">
+          <a href="index_en.htm" class="mitem">
+            <i class="flaticon-house204"></i>
+          </a>
+          <a href="legal.htm" class="mitem">
+            Legal issues
+          </a>
         </div>
-        <div class="col-md-7 search-by">
-          <label><input type="radio" name="optradio"> <span>All projects</span></label>
-          <span style="color:grey">or</span>
-          <label><input type="radio" name="optradio"> <span>Ongoing projects</span></label>
-          <label><input type="radio" name="optradio"> <span>Finalized projects</span></label>
-          <label><input type="radio" name="optradio"> <span>Success stories</span></label>
-
+        <div class="col-md-4 col-md-offset-2 smenu" style="text-align:right;">
+          <a href="#">
+            <i class="flaticon-key60"></i>Login
+          </a>
+          <a href="faq.htm">
+            <i class="flaticon-help15"></i>Help
+          </a>
         </div>
-        <div class=" col-md-4 search-marg-bottom search-by" align="right" type="reset">
-         <input type="reset" class="flaticon-cancel30" value="Clear filters"> <i class="flaticon-cancel30"></i>
-       </div>
-       <div class="col-md-2 search-marg-bottom">
-        <select class="form-control search-disabled" disabled="disabled">
-          <option>All Years</option>
-          <option>All Years</option>
-          <option>All Years</option>
-          <option>All Years</option>
-          <option>All Years</option>
-        </select>                                
       </div>
-      <div class="col-md-5 search-marg-bottom">
-        <select class="form-control">
-          <option>All Countries</option>
-          <option>All </option>
-          <option>All Countries</option>
-          <option>All Countries</option>
-          <option>All Countries</option>
-        </select> 
+      <!-- END : Menu -->
+      <!-- START: Get inspired section -->
+      <div align="center" class="marg-md-120 marg-xs-50 h_02">
+        <carrouselTitle>Creative Europe Project results</carrouselTitle><br/><br/>
+        <carrouselSubtitle>Find projects supported by the European Commission</carrouselSubtitle><br/><br/>
       </div>
-      <div class="col-md-5 search-marg-bottom">
-        <select class="form-control">
-          <option>All Regions</option>
-          <option>All Regions</option>
-          <option>All Regions</option>
-          <option>All Regions</option>
-          <option>All Regions</option>
-        </select>                                 
+      <!-- END: Get inspired section -->
+      <!-- START: Search wrapper -->
+      <div class="search-wrapper" >
+        <div class="search-wrapper-container">
+          <form role="search" id="configform">
+            <input type="search" class="col-md-10 col-xs-4 searchEngineInput" name="search" placeholder="Search by Keyword" autocomplete="on" required/>
+            <input type="submit" value="Search" class="col-md-1"/>
+            <div class="advancedfilters" onClick="showAdvancedSearch(Div_1)" align="center">
+              or show/hide the advanced filters<br/><img src="images/arrow_below.png">
+            </div>
+        </div>
+        <!-- START: Advanced Search -->
+        <div class="container" id="Div_1" style="display:none;">
+          <div class="search-padding row">
+            <div class="col-md-1 search-marg-bottom search-by">
+              <strong>Search by</strong> 
+            </div>
+            <div class="col-md-7 search-by">
+              <label>
+                <input type="radio" name="optradio">
+                  <span>All projects</span>
+              </label>
+              <span style="color:grey">or</span>
+              <label>
+                <input type="radio" name="optradio">
+                  <span> Ongoing projects</span>
+              </label>
+              <label>
+                <input type="radio" name="optradio">
+                  <span> Finalized projects</span>
+              </label>
+              <label>
+                <input type="radio" name="optradio">
+                <span> Success stories</span>
+              </label>
+            </div>
+            <div class=" col-md-4 search-marg-bottom search-by" align="right" type="reset">
+              <input type="reset" class="flaticon-cancel30" value="Clear filters"> <i class="flaticon-cancel30"></i>
+            </div>
+            <div class="col-md-2 search-marg-bottom">
+              <select class="form-control search-disabled" disabled="disabled">
+                <option>All Years</option>
+                <option>All Years</option>
+                <option>All Years</option>
+                <option>All Years</option>
+                <option>All Years</option>
+              </select>                                
+            </div>
+            <div class="col-md-5 search-marg-bottom">
+              <select class="form-control">
+                <option>All Countries</option>
+                <option>All </option>
+                <option>All Countries</option>
+                <option>All Countries</option>
+                <option>All Countries</option>
+              </select> 
+            </div>
+            <div class="col-md-5 search-marg-bottom">
+              <select class="form-control">
+                <option>All Regions</option>
+                <option>All Regions</option>
+                <option>All Regions</option>
+                <option>All Regions</option>
+                <option>All Regions</option>
+              </select>                                 
+            </div>
+            <div class="col-md-3  search-marg-bottom">
+              <select class="form-control">
+                <option>All Programmes</option>
+                <option>All Programmes</option>
+                <option>All Programmes</option>
+                <option>All Programmes</option>
+                <option>All Programmes</option>
+              </select>  
+            </div>
+            <div class="col-md-3 search-marg-bottom">
+              <select class="form-control">
+                <option>All Subprogrammes</option>
+                <option>All Subprogrammes</option>
+                <option>All Subprogrammes</option>
+                <option>All Subprogrammes</option>
+                <option>All Subprogrammes</option>
+              </select>  
+            </div>
+            <div class="col-md-2 search-marg-bottom">
+              <select class="form-control">
+                <option>All Actions</option>
+                <option>All Actions</option>
+                <option>All Actions</option>
+                <option>All Actions</option>
+                <option>All Actions</option>
+              </select>  
+            </div>
+            <div class="col-md-4 search-marg-bottom">
+              <select class="form-control search-disabled" disabled="disabled">
+                <option>All Funding schemes</option>
+                <option>All Funding schemes</option>
+                <option>All Funding schemes</option>
+                <option>All Funding schemes</option>
+                <option>All Funding schemes</option>
+              </select>                                  
+            </div>
+            <div class="col-md-8 search-marg-bottom">
+              <select class="form-control">
+                <option>All Activity types</option>
+                <option>All Activity types</option>
+                <option>All Activity types</option>
+                <option>All Activity types</option>
+                <option>All Activity types</option>
+              </select>          
+            </div>
+            <div class="col-md-4 search-marg-bottom">
+              <select class="form-control">
+                <option>All Projects</option>
+                <option>All Projects</option>
+                <option>All Projects</option>
+                <option>All Projects</option>
+                <option>All Projects</option>
+              </select>                                 
+            </div>
+          </div>
+        </div>
+      </form>
       </div>
-      <div class="col-md-3  search-marg-bottom">
-        <select class="form-control">
-          <option>All Programmes</option>
-          <option>All Programmes</option>
-          <option>All Programmes</option>
-          <option>All Programmes</option>
-          <option>All Programmes</option>
-        </select>  
-      </div>
-      <div class="col-md-3 search-marg-bottom">
-        <select class="form-control">
-          <option>All Subprogrammes</option>
-          <option>All Subprogrammes</option>
-          <option>All Subprogrammes</option>
-          <option>All Subprogrammes</option>
-          <option>All Subprogrammes</option>
-        </select>  
-      </div>
-      <div class="col-md-2 search-marg-bottom">
-        <select class="form-control">
-          <option>All Actions</option>
-          <option>All Actions</option>
-          <option>All Actions</option>
-          <option>All Actions</option>
-          <option>All Actions</option>
-        </select>  
-      </div>
-      <div class="col-md-4 search-marg-bottom">
-        <select class="form-control search-disabled" disabled="disabled">
-          <option>All Funding schemes</option>
-          <option>All Funding schemes</option>
-          <option>All Funding schemes</option>
-          <option>All Funding schemes</option>
-          <option>All Funding schemes</option>
-        </select>                                  
-      </div>
-      <div class="col-md-8 search-marg-bottom">
-        <select class="form-control">
-          <option>All Activity types</option>
-          <option>All Activity types</option>
-          <option>All Activity types</option>
-          <option>All Activity types</option>
-          <option>All Activity types</option>
-        </select>          
-      </div>
-      <div class="col-md-4 search-marg-bottom">
-        <select class="form-control">
-          <option>All Projects</option>
-          <option>All Projects</option>
-          <option>All Projects</option>
-          <option>All Projects</option>
-          <option>All Projects</option>
-        </select>                                 
+      <!-- END: Search wrapper container -->
+    </div>
+  </div>
+  
+  <!-- START: Content -->
+  <!-- START : About section -->
+  <div class="jumbotron ecFontReg" id="about">
+    <div class="container showcase-hp">
+      <div class="col-md-12">
+        <div align="center">
+          <h2 class="section-title">About</h2>
+          <p class="section-sub">The Creative Europe Project Results Platform is the European Commission’s database for the Erasmus+ Programme. <br/><br/>It contains descriptions of all projects funded under the programme, including contact information for the organisations involved. <br/>It also contains results for projects that have ended, including links to websites. Success stories, or projects that have had exceptional results in terms of policy relevance, communication potential, impact or design, are highlighted on the platform. <br/><br/>They have been selected from a wider pool of good practice examples, or well-managed projects with very good results.</p>
+        </div>
       </div>
     </div>
   </div>
-  <!-- END: Advanced Search -->
-</form>
-</div>
-</div>
-</div>
-<!-- START: Content -->
-<div class="layout-body" role="main">
-
-
-
-  <!-- END: All projects -->
-</div>
-<!-- END: Tabs -->
-<!-- START: Content Zone -->
-<div class="jumbotron ecFontReg" id="about">
-  <div class="container showcase-hp">
-    <div class="col-md-12">
-      <div align="center">
-        <h2 class="section-title">About</h2>
-        <p class="section-sub">The Creative Europe Project Results Platform is the European Commission’s database for the Erasmus+ Programme. <br/><br/>It contains descriptions of all projects funded under the programme, including contact information for the organisations involved. <br/>It also contains results for projects that have ended, including links to websites. Success stories, or projects that have had exceptional results in terms of policy relevance, communication potential, impact or design, are highlighted on the platform. <br/><br/>They have been selected from a wider pool of good practice examples, or well-managed projects with very good results.</p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
+  <!-- END : About sectionn -->
+  <!-- START : Why use valor? section -->
   <div class="jumbotron ecFontReg" id="whyusevalor">
-  <div class="container showcase-hp">
-    <div class="col-md-12">
-      <div align="center">
-        <h2 class="section-title">Why you should use it ?</h2>
-         <p class="section-sub">To enhance the visibility of your project
-          <br>
-           To share the results of your project with other people interested in the same topics<br>
-           To find inspiration <br>
-           To find partners for future projects </p>
+    <div class="container showcase-hp">
+      <div class="col-md-12">
+        <div align="center">
+          <h2 class="section-title">Why you should use it ?</h2>
+           <p class="section-sub">To enhance the visibility of your project
+            <br>
+             To share the results of your project with other people interested in the same topics<br>
+             To find inspiration <br>
+             To find partners for future projects </p>
+        </div>
       </div>
     </div>
   </div>
-</div>
-</div>
-<div class="jumbotron ecFontReg" id="projectlist">
-  <div class="container showcase-hp">
-    <div class="col-md-12">
-      <div align="center">
-        <h2 class="section-title">Complete list of all Creative Europe projects </h2>
-        <p class="section-sub">Here you can find a <u><a href="#">list of all projects funded by the European Commission</a></u> under the Creative Europe programme. 
-You can save the list as an Excel file, so that you can apply your own filtering and sorting, and generate statistics about the programme. </p>
-      
+  <!-- END : Why use valor? section -->
+  <!-- START : project list section -->
+  <div class="jumbotron ecFontReg" id="projectlist">
+    <div class="container showcase-hp">
+      <div class="col-md-12">
+        <div align="center">
+          <h2 class="section-title">Complete list of all Creative Europe projects </h2>
+          <p class="section-sub">Here you can find a <u><a href="#">list of all projects funded by the European Commission</a></u> under the Creative Europe programme. You can save the list as an Excel file, so that you can apply your own filtering and sorting, and generate statistics about the programme. </p>
+        </div>
       </div>
     </div>
   </div>
-</div>
+  <!-- END : project list section -->
 </div>
 <!-- END: Content -->
 
-<!--FOOTER-->
+<!--START : FOOTER-->
 <div class="layout-footer jumbotron" >
-<div class="container">
-<div class="ce-footer">
-<div class="ce-footer__column">
-<h2 class="ce-footer__column-header">Presentation</h2>
-    <a class="ce-footer__column-link" href="https://ec.europa.eu/programmes/creative-europe/sites/creative-europe/files/library/creative-europe-leaflet_en.pdf">Leaflet</a>
-    <a class="ce-footer__column-link" href="http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R1295">Legal Basis</a>
-    <a class="ce-footer__column-link" href="http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:JOL_2014_189_R_0014">Corrigendum to Legal Basis</a>
+  <div class="container">
+    <div class="ce-footer">
+      <div class="ce-footer__column">
+        <h2 class="ce-footer__column-header">Presentation</h2>
+        <a class="ce-footer__column-link" href="https://ec.europa.eu/programmes/creative-europe/sites/creative-europe/files/library/creative-europe-leaflet_en.pdf">Leaflet</a>
+        <a class="ce-footer__column-link" href="http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R1295">Legal Basis</a>
+        <a class="ce-footer__column-link" href="http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:JOL_2014_189_R_0014">Corrigendum to Legal Basis</a>
+      </div>
+      <div class="ce-footer__column">
+        <h2 class="ce-footer__column-header">Current programme</h2>
+        <a class="ce-footer__column-link" href="https://ec.europa.eu/programmes/creative-europe/">Creative-europe Programme (2014-2020)</a>
+        <h2 class="ce-footer__column-header">Previous programme</h2>
+        <a class="ce-footer__column-link" href="http://ec.europa.eu/culture/tools/culture-programme_en.htm">Culture Programme (2007-2013)</a>
+        <a class="ce-footer__column-link" href="http://ec.europa.eu/culture/tools/media-programme_en.htm">MEDIA Programme (2007-2013)</a>
+      </div>
+      <div class="ce-footer__column">
+        <h2 class="ce-footer__column-header">Contact</h2>
+          <a class="ce-footer__column-link" href="http://ec.europa.eu/programmes/creative-europe/contact_en">Creative Europe Desks</a>
+          <a class="ce-footer__column-link" href="http://eacea.ec.europa.eu/index_en.php">Education and Culture Executive Agency</a>
+          <a class="ce-footer__column-link" href="http://ec.europa.eu/culture/tools/networks_en.htm">European Networks</a>
+      </div>
+    </div>
+  </div>
 </div>
-<div class="ce-footer__column">
-  <h2 class="ce-footer__column-header">Current programme</h2>
-    <a class="ce-footer__column-link" href="https://ec.europa.eu/programmes/creative-europe/">Creative-europe Programme (2014-2020)</a>
-<h2 class="ce-footer__column-header">Previous programme</h2>
-    <a class="ce-footer__column-link" href="http://ec.europa.eu/culture/tools/culture-programme_en.htm">Culture Programme (2007-2013)</a>
-    <a class="ce-footer__column-link" href="http://ec.europa.eu/culture/tools/media-programme_en.htm">MEDIA Programme (2007-2013)</a>
-</div>
-<div class="ce-footer__column">
-<h2 class="ce-footer__column-header">Contact</h2>
-    <a class="ce-footer__column-link" href="http://ec.europa.eu/programmes/creative-europe/contact_en">Creative Europe Desks</a>
-    <a class="ce-footer__column-link" href="http://eacea.ec.europa.eu/index_en.php">Education and Culture Executive Agency</a>
-    <a class="ce-footer__column-link" href="http://ec.europa.eu/culture/tools/networks_en.htm">European Networks</a>
-</div>
-</div>
-</div>
-
-</div>
-
-
-
-<!-- Footer -->
 <div class="footer--last-update">
-<div class="footer--last-update--wrapper">
-          
-
-Last update: 06/06/2016 | <ul class="menu clearfix list-group list-group-flush list-unstyled"><li class="first leaf"><a href="http://ec.europa.eu/geninfo/legal_notices_en.htm" data-display-title="1" data-remove-class="1" class="">Legal notice</a></li>
-<li class="leaf"><a href="http://ec.europa.eu/cookies/index_en.htm" data-display-title="1" data-remove-class="1" class="">Cookies</a></li>
-<li class="leaf"><a href="http://ec.europa.eu/contact/index_en.htm" data-display-title="1" data-remove-class="1" class="">Contact on Europa</a></li>
-<li class="last leaf"><a href="http://ec.europa.eu/geninfo/query/search_en.html" data-display-title="1" data-remove-class="1" class="">Search on Europa</a></li>
-</ul>    </div>
+  <div class="footer--last-update--wrapper">
+    Last update: 08/06/2017 | 
+    <ul class="menu clearfix list-group list-group-flush list-unstyled">
+      <li class="first leaf"><a href="http://ec.europa.eu/geninfo/legal_notices_en.htm" data-display-title="1" data-remove-class="1" class="">Legal notice</a></li>
+      <li class="leaf"><a href="http://ec.europa.eu/cookies/index_en.htm" data-display-title="1" data-remove-class="1" class="">Cookies</a></li>
+      <li class="leaf"><a href="http://ec.europa.eu/contact/index_en.htm" data-display-title="1" data-remove-class="1" class="">Contact on Europa</a></li>
+      <li class="last leaf"><a href="http://ec.europa.eu/geninfo/query/search_en.html" data-display-title="1" data-remove-class="1" class="">Search on Europa</a></li>
+    </ul>
+  </div>
 </div>
-
-<!-- END -->
-<script src="scripts/randomimages.js"></script>
+<!-- END : Footer -->
 </body>
 </html>

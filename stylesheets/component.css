@@ -10,11 +10,13 @@
 	} /* Icons created with icomoon.io/app */
 
 .projectprogrammesubaction {
-	margin-top:-7px;
+	margin-top:-19px;
+	font-family: 'ec_square_sans_cond_promedium', Verdana, Arial, Helvetica, 'DejaVu Sans', sans-serif;
+	
 }
 
 .projectshortdesc {
-	margin-top: 75px
+	float: left;
 }
 	.tabs {
 		position: relative;
@@ -174,6 +176,10 @@
 		color:#5b549a;
 		text-decoration: none;
 		word-spacing: -2px;
+		text-overflow: ellipsis;
+    	width: 340px;
+    	/* white-space: nowrap; */
+    	overflow: hidden;
 	}
 
 	.mediabox h3 a, .mediabox h3 a:visited {
