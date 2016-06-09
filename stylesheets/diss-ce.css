@@ -343,7 +343,7 @@ h3,
 }
 .table {
     font-family: 'ec_square_sans_cond_proRg', Verdana, Arial, Helvetica, "DejaVu Sans", sans-serif;
-    font-size: 14px;
+    font-size: 18px;
 }
 /* Replace some bootstrap rule (not in bootstrap.css to facilite migration to newer versions) */
 
@@ -562,10 +562,15 @@ h1 {
         font-size: 1em;
     }
     .jumbotron p {
-        font-size: 1.3em;
+        font-size: 18px;
         font-family: 'ec_square_sans_cond_proRg', Verdana, Arial, Helvetica, 'DejaVu Sans', sans-serif;
         font-weight: 500;
     }
+    
+    .table {
+    font-family: 'ec_square_sans_cond_proRg', Verdana, Arial, Helvetica, "DejaVu Sans", sans-serif;
+    font-size: 16px;
+}
 }
 h1 a {
     font-size: 1em;
@@ -928,6 +933,10 @@ input[type="reset"] {
     .tagbottom {
         display: none;
     }
+    .table {
+    font-family: 'ec_square_sans_cond_proRg', Verdana, Arial, Helvetica, "DejaVu Sans", sans-serif;
+    font-size: 14px;
+}
     .searchEngineInput {
         width: 74%;
     }
@@ -1307,6 +1316,10 @@ input[type="reset"] {
 #roger .icon-button:hover .icon-facebook,
 #roger.icon-button:hover .icon-google-plus {
     color: white;
+}
+
+.legal {
+    font-size: 18px;
 }
 .projectFiche h1,
 .projectFiche h2 {
@@ -2140,6 +2153,10 @@ ul.menu {
         display: inline-block;
         padding: 5px 14px !important;
     }
+    .table {
+    font-family: 'ec_square_sans_cond_proRg', Verdana, Arial, Helvetica, "DejaVu Sans", sans-serif;
+    font-size: 14px;
+}
 }
 
 .projectdetails {
@@ -2153,4 +2170,8 @@ ul.menu {
 .projectFicheTypeOf {
     margin-top:0px;
     float:left !important;
+}
+
+.projectFiche {
+    font-size: 18px;
 }
