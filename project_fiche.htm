@@ -117,7 +117,7 @@
       <!-- START: Get inspired section -->
       <div align="center" class="marg-md-120 marg-xs-50 h_02">
         <carrouselTitle>Creative Europe Project results</carrouselTitle><br/><br/>
-        <carrouselSubtitle>Find projects supported by the European Commission</carrouselSubtitle><br/><br/>
+        <carrouselSubtitle>Imagine. Create. Share into xxx Projects</carrouselSubtitle><br/><br/>
       </div>
       <!-- END: Get inspired section -->
       <!-- START: Search wrapper -->
@@ -136,7 +136,7 @@
             <div class="col-md-1 search-marg-bottom search-by">
               <strong>Search by</strong> 
             </div>
-            <div class="col-md-7 search-by">
+            <div class="col-md-8 search-by">
               <label>
                 <input type="radio" name="optradio">
                   <span>All projects</span>
@@ -146,99 +146,134 @@
                 <input type="radio" name="optradio">
                   <span> Ongoing projects</span>
               </label>
+                  <span style="color:grey">or</span>
               <label>
                 <input type="radio" name="optradio">
-                  <span> Finalized projects</span>
+                <span> Finalized projects</span>
+                <span style="color:grey">or</span>
               </label>
               <label>
                 <input type="radio" name="optradio">
                 <span> Success stories</span>
               </label>
+                <label> <input type="checkbox" value="">Only projects with results</label>
             </div>
-            <div class=" col-md-4 search-marg-bottom search-by" align="right" type="reset">
+            <div class=" col-md-3 search-marg-bottom search-by" align="right" type="reset">
               <input type="reset" class="flaticon-cancel30" value="Clear filters"> <i class="flaticon-cancel30"></i>
             </div>
-            <div class="col-md-2 search-marg-bottom">
-              <select class="form-control search-disabled" disabled="disabled">
-                <option>All Years</option>
-                <option>All Years</option>
-                <option>All Years</option>
-                <option>All Years</option>
-                <option>All Years</option>
-              </select>                                
-            </div>
-            <div class="col-md-5 search-marg-bottom">
-              <select class="form-control">
-                <option>All Countries</option>
-                <option>All </option>
-                <option>All Countries</option>
-                <option>All Countries</option>
-                <option>All Countries</option>
-              </select> 
-            </div>
-            <div class="col-md-5 search-marg-bottom">
-              <select class="form-control">
-                <option>All Regions</option>
-                <option>All Regions</option>
-                <option>All Regions</option>
-                <option>All Regions</option>
-                <option>All Regions</option>
-              </select>                                 
-            </div>
-            <div class="col-md-3  search-marg-bottom">
-              <select class="form-control">
-                <option>All Programmes</option>
-                <option>All Programmes</option>
-                <option>All Programmes</option>
-                <option>All Programmes</option>
-                <option>All Programmes</option>
-              </select>  
-            </div>
-            <div class="col-md-3 search-marg-bottom">
-              <select class="form-control">
-                <option>All Subprogrammes</option>
-                <option>All Subprogrammes</option>
-                <option>All Subprogrammes</option>
-                <option>All Subprogrammes</option>
-                <option>All Subprogrammes</option>
-              </select>  
-            </div>
-            <div class="col-md-2 search-marg-bottom">
-              <select class="form-control">
-                <option>All Actions</option>
-                <option>All Actions</option>
-                <option>All Actions</option>
-                <option>All Actions</option>
-                <option>All Actions</option>
-              </select>  
-            </div>
-            <div class="col-md-4 search-marg-bottom">
-              <select class="form-control search-disabled" disabled="disabled">
-                <option>All Funding schemes</option>
-                <option>All Funding schemes</option>
-                <option>All Funding schemes</option>
-                <option>All Funding schemes</option>
-                <option>All Funding schemes</option>
-              </select>                                  
-            </div>
-            <div class="col-md-8 search-marg-bottom">
-              <select class="form-control">
-                <option>All Activity types</option>
-                <option>All Activity types</option>
-                <option>All Activity types</option>
-                <option>All Activity types</option>
-                <option>All Activity types</option>
-              </select>          
-            </div>
-            <div class="col-md-4 search-marg-bottom">
-              <select class="form-control">
-                <option>All Projects</option>
-                <option>All Projects</option>
-                <option>All Projects</option>
-                <option>All Projects</option>
-                <option>All Projects</option>
-              </select>                                 
-            </div>
+            
+            
+            <div id="exTab2" class="container">	
+            <ul class="nav nav-tabs">
+            			<li class="active">
+                    <a  href="#1" data-toggle="tab">By project criteria</a>
+            			</li>
+            			<li><a href="#2" data-toggle="tab">By organisation criteria</a>
+            			</li>
+            		</ul>
+            
+            			<div class="tab-content " style="margin-top:15px;">
+            			  <div class="tab-pane active" id="1">
+                       <div class="col-md-2 search-marg-bottom">
+                          <select class="form-control search-disabled" disabled="disabled">
+                            <option>All Years</option>
+                            <option>All Years</option>
+                            <option>All Years</option>
+                            <option>All Years</option>
+                            <option>All Years</option>
+                          </select>                                
+                        </div>
+                        <div class="col-md-5 search-marg-bottom">
+                          <select class="form-control">
+                            <option>All Countries</option>
+                            <option>All </option>
+                            <option>All Countries</option>
+                            <option>All Countries</option>
+                            <option>All Countries</option>
+                          </select> 
+                        </div>
+                        <div class="col-md-5 search-marg-bottom">
+                          <select class="form-control">
+                            <option>All Regions</option>
+                            <option>All Regions</option>
+                            <option>All Regions</option>
+                            <option>All Regions</option>
+                            <option>All Regions</option>
+                          </select>                                 
+                        </div>
+                        <div class="col-md-3  search-marg-bottom">
+                          <select class="form-control">
+                            <option>All Programmes</option>
+                            <option>All Programmes</option>
+                            <option>All Programmes</option>
+                            <option>All Programmes</option>
+                            <option>All Programmes</option>
+                          </select>  
+                        </div>
+                        <div class="col-md-3 search-marg-bottom">
+                          <select class="form-control">
+                            <option>All Subprogrammes</option>
+                            <option>All Subprogrammes</option>
+                            <option>All Subprogrammes</option>
+                            <option>All Subprogrammes</option>
+                            <option>All Subprogrammes</option>
+                          </select>  
+                        </div>
+                        <div class="col-md-2 search-marg-bottom">
+                          <select class="form-control">
+                            <option>All Actions</option>
+                            <option>All Actions</option>
+                            <option>All Actions</option>
+                            <option>All Actions</option>
+                            <option>All Actions</option>
+                          </select>  
+                        </div>
+                        <div class="col-md-4 search-marg-bottom">
+                          <select class="form-control search-disabled" disabled="disabled">
+                            <option>All Funding schemes</option>
+                            <option>All Funding schemes</option>
+                            <option>All Funding schemes</option>
+                            <option>All Funding schemes</option>
+                            <option>All Funding schemes</option>
+                          </select>                                  
+                        </div>
+            				</div>
+            				<div class="tab-pane" id="2">
+                      <div class="col-md-6 search-marg-bottom">
+                          <select class="form-control">
+                            <option>All countries</option>
+                            <option>All countries</option>
+                            <option>All countries</option>
+                            <option>All countries</option>
+                            <option>All countries</option>
+                          </select>                                
+                        </div>
+                        <div class="col-md-6 search-marg-bottom">
+                          <select class="form-control">
+                            <option>All regions</option>
+                            <option>All regions</option>
+                            <option>All regions</option>
+                            <option>All regions</option>
+                            <option>All regions</option>
+                          </select> 
+                        </div>
+                        <div class="col-md-6 search-marg-bottom">
+                        </div>
+                        <div class="col-md-6 search-marg-bottom">
+                         <p class="searchtxt">Note: The search by region is only available for projects funded under the "Erasmus+" / "Creative Europe" programme from 2014 onwards.</p>
+                        </div>
+                        <div class="col-md-12 search-marg-bottom">
+                          <select class="form-control">
+                            <option>All organistation types</option>
+                            <option>All organistation types</option>
+                            <option>All organistation types</option>
+                            <option>All organistation types</option>
+                            <option>All organistation types</option>
+                          </select> 
+                        </div>
+            				</div>
+            			</div>
+              </div>
           </div>
         </div>
       </form>
@@ -416,7 +451,7 @@
       <div class="col-md-12">
         <div align="center">
           <h2 class="section-title">About</h2>
-          <p class="section-sub">The Creative Europe Project Results Platform is the European Commission’s database for the Erasmus+ Programme. <br/><br/>It contains descriptions of all projects funded under the programme, including contact information for the organisations involved. <br/>It also contains results for projects that have ended, including links to websites. Success stories, or projects that have had exceptional results in terms of policy relevance, communication potential, impact or design, are highlighted on the platform. <br/><br/>They have been selected from a wider pool of good practice examples, or well-managed projects with very good results.</p>
+          <p class="section-sub">The Creative Europe Project Results Platform is the European Commission’s database for the Creative Europe programme and the former Culture programme.<br/><br/>It contains descriptions of projects funded under these programmes, including contact information for the organisations involved. <br/>You can also find results for projects that have ended, including links to websites. Success stories, or projects that have had exceptional results in terms of policy relevance, communication potential, impact or design, are highlighted on the platform.</p>
         </div>
       </div>
     </div>
@@ -471,10 +506,13 @@
         <a class="ce-footer__column-link" href="http://ec.europa.eu/culture/tools/media-programme_en.htm">MEDIA Programme (2007-2013)</a>
       </div>
       <div class="ce-footer__column">
-        <h2 class="ce-footer__column-header">Contact</h2>
+        <div class="sm">
+        <h2 class="ce-footer__column-header">Contact</h2> 
           <a class="ce-footer__column-link" href="http://ec.europa.eu/programmes/creative-europe/contact_en">Creative Europe Desks</a>
           <a class="ce-footer__column-link" href="http://eacea.ec.europa.eu/index_en.php">Education and Culture Executive Agency</a>
           <a class="ce-footer__column-link" href="http://ec.europa.eu/culture/tools/networks_en.htm">European Networks</a>
+          <a href="https://www.facebook.com/CreativeEuropeEU"><img src="../images/facebook.png" alt="Creative-europe Facebook page"> </a>
+          <a href="https://twitter.com/europe_creative?lang=en"><img src="../images/twitter.png" alt="Creative-europe Twitter page"> </a>
       </div>
     </div>
   </div>
