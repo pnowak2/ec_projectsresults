@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page> 
+   <id>eplus-help-article-page</id>
+   <title>title.eplus-help-article-page</title> 
+   <description>help article style page with medium image</description>
+   <template-instance>one-block-valor</template-instance>
+   <authentication>none</authentication>
+	<properties>
+		<style>eplus</style>
+	</properties>   
+   <components>
+      <component>
+         <region-id>main1</region-id>
+         <url>/article/style1</url>
+      </component>       
+      <component>
+         <region-id>main2</region-id>
+         <url>/facebook/like</url>
+      </component> 
+   </components>
+</page>

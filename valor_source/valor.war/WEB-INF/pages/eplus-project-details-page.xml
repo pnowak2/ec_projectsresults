@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page> 
+   <id>eplus-project-details-page</id>
+   <title>title.eplus-project-details-page</title>   
+   <description>Page with one full-width column</description>   
+   <template-instance>one-block</template-instance>
+   <authentication>none</authentication>
+	<properties>
+		<style>eplus</style>
+	</properties>    
+   <components>
+	  <component>
+         <region-id>main1</region-id>
+         <url>/project/common/details</url>     		 
+      </component> 	  
+   </components>
+</page>

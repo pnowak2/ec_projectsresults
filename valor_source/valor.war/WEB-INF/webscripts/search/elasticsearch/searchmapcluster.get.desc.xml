@@ -1,0 +1,7 @@
+<webscript>
+  <shortname>ElasticSearch search for Map</shortname>
+  <description>ElasticSearch search for Map</description>
+  <url>/es/search/clustermap</url>
+  <authentication>none</authentication>
+<format default ="json"></format>
+</webscript>

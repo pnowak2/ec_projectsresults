@@ -1,0 +1,5 @@
+<webscript>
+  <shortname>General project details page</shortname>
+  <description>General project details page</description>
+  <url>/project/common/details</url>
+</webscript>

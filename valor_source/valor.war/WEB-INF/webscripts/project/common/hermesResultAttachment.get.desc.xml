@@ -1,0 +1,8 @@
+<webscript>
+  <shortname>retrieving the result attachment contents from Hermes Repository Services</shortname>
+  <description>
+    WebScript used for retrieving the result attachment contents from Hermes Repository Services.
+    Expects one parameter called "contentsId", with the ID of the Hermes attachment to download.
+  </description>
+  <url>/project/result/hrs</url>
+</webscript>

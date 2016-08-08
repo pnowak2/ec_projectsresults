@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page> 
+   <id>searchpage1</id>
+   <description>Advanced Search form for Projects</description>    
+   <title>Search for Projects</title>
+   <template-instance>one-block</template-instance>
+   <authentication>none</authentication>
+   <components>     
+      <!--<component>
+         <region-id>left1</region-id>
+         <url>/advsearch/form</url>        
+      </component>       
+      <component>
+         <region-id>right1</region-id>
+         <url>/list/links</url>
+          <properties>
+             <collection>section.articles</collection>
+          </properties>              
+      </component>-->    
+		<component>
+         <region-id>main1</region-id>
+         <url>/simplesearch/form</url>        
+      </component> 
+   </components>
+</page>

@@ -1,0 +1,8 @@
+<webscript>
+  <shortname>ElasticSearch search for all projects for compendia</shortname>
+  <description>ElasticSearch search for all projects for compendia</description>
+  <url>/es/projectscompendia</url>
+  <authentication>none</authentication>
+  <format default ="json"></format>
+</webscript>
+

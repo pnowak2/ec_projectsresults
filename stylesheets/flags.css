@@ -8,6 +8,7 @@
 	background: url(../images/flagssprite_small.png) no-repeat;
 	cursor: help;
 	margin-right:15px;
+	color: transparent;
 }
 
 .space10px {

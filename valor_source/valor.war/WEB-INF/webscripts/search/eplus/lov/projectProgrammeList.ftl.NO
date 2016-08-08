@@ -1,0 +1,11 @@
+<option value="0002">${msg('programme.llp')}</option>
+<option value="0003">${msg('programme.yia')}</option>	
+<option value="0004">${msg('programme.comenius')}</option>
+<option value="0005">${msg('programme.elearning')}</option>
+<option value="0006">${msg('programme.erasmus-socrates')}</option>	
+<option value="0007">${msg('programme.leonardo')}</option>	
+<option value="0008">${msg('programme.lingua')}</option>	
+<option value="0009">${msg('programme.grundtvig')}</option>	
+<option value="0010">${msg('programme.coop')}</option>	
+<option value="0011">${msg('programme.erasmus-mundus')}</option>	
+<option value="0012">${msg('programme.tempus')}</option>

@@ -1,0 +1,7 @@
+#to join the cluster if needed, disabled by default
+discovery.zen.ping.multicast.enabled : false
+#index.cache.field.max_size: 35000
+#index.cache.field.expire: 30m
+index.cache.field.type: soft
+#to allow monitoring for ES instance
+http.enabled: true

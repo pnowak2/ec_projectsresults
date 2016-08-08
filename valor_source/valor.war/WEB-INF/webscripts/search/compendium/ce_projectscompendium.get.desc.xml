@@ -1,0 +1,6 @@
+<webscript>
+  <shortname>CreativeEurope Projects compendium</shortname>
+  <description>Download pre-generated Excel export file for CreativeEurope</description>
+  <url>/ce-projects-compendium</url>
+  <authentication>none</authentication>
+</webscript>

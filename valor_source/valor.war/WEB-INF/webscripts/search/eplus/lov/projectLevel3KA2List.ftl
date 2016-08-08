@@ -1,0 +1,12 @@
+   { value:"31046264", abbreviation: "KA200", label: "Strategic Partnerships addressing more than one field" },
+   { value:"31046265", abbreviation: "KA201", label: "Strategic Partnerships for school education" },
+   { value:"31046266", abbreviation: "KA202", label: "Strategic Partnerships for vocational education and training" },
+   { value:"31046267", abbreviation: "KA203", label: "Strategic Partnerships for higher education" },
+   { value:"31046268", abbreviation: "KA204", label: "Strategic Partnerships for adult education" },
+   { value:"31046269", abbreviation: "KA205", label: "Strategic Partnerships for youth" },
+   { value:"31046270", abbreviation: "KA206", label: "Knowledge Alliances for higher education" },
+   { value:"31046271", abbreviation: "KA207", label: "Sector Skills Alliances in vocational education and training" },
+   { value:"31046275", abbreviation: "KA211", label: "Capacity Building in higher education" },
+   { value:"31046277", abbreviation: "KA213", label: "Capacity Building for youth in ACP countries, Latin America and Asia" },
+   { value:"31046278", abbreviation: "KA214", label: "Capacity Building for youth in neighbouring and enlargement countries" },
+   { value:"31064430", abbreviation: "KA219", label: "Strategic Partnerships for Schools Only" }

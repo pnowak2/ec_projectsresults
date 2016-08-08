@@ -1,0 +1,6 @@
+<webscript>
+  <shortname>Erasmus+ Projects compendium</shortname>
+  <description>Download pre-generated Excel export file for Erasmus+</description>
+  <url>/eplus-projects-compendium</url>
+  <authentication>none</authentication>
+</webscript>

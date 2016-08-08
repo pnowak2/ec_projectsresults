@@ -1,0 +1,380 @@
+/* common styles */
+a {
+    color: #0875BA;
+}
+a:hover {
+    color: #0875BA;
+}
+
+/* martcri 20/11/2013 */
+/* Styles for Project Details */
+
+/* TAB 1 - Project */
+#breadcrumb {
+    background-color: #FFFFE1;
+    color: #004494;
+    font-weight: bold;
+    padding: 5px 5px;
+    clear: both;
+}
+
+#identifier {
+    color: #0065A2 !important;
+    float: left;
+    font-weight: bold;
+    margin-right: 0.4em;
+    padding: 1em;
+    width: 97%;
+}
+
+#programme {
+    color: #0065A2 !important;
+    float: right;
+    font-weight: bold;
+    margin-right: 0.4em;
+    padding: 10px;
+}
+#title {
+    font-size:120%;
+    font-weight: bold;
+    color: white !important;
+    background-color: #0065A2;
+    padding: 5px;
+    float: right;
+    clear: right;
+
+}
+#tabProject{
+    width: 940px;
+    margin: 0 auto;
+    line-height: 24px;
+}
+/* Valor project details */
+#valorprogramme {
+    color: #0065A2 !important;
+    float: left;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 10px;
+    width: 95%;
+}
+#valorprojectlogo {
+    float: right;
+    padding: 5px;
+}
+#valoridentifier{
+    color: #0065A2 !important;
+    font-weight: bold;
+    padding: 0 0 10px;
+    float:left;
+    width: 90%;
+}
+#valorlevel1{
+    color: #000000 !important;
+    font-weight: bold;
+    padding: 0 0 10px;
+    float:left;
+    width: 90%;
+}
+#valortitle {
+    color: #0065A2 !important;
+    float: left;
+    padding: 0 0 10px;
+    width: 90%;
+}
+#valorsummary{
+    color: #333333;
+    padding: 0 0 10px !important;
+    float: left;
+    width: 100%;
+    /*padding: 10px;*/
+    /*-webkit-box-shadow: inset 0 0 20px 0 rgba(200, 200, 200, 0.75);*/
+    /*-moz-box-shadow: inset 0 0 20px 0 rgba(200, 200, 200, 0.75);*/
+    /*box-shadow: inset 0 0 20px 0 rgba(200, 200, 200, 0.75);*/
+}
+#valorsummary fieldset {
+    /*border: none;*/
+}
+#valordetails{
+    color: #333333;
+    padding: 0 0 10px !important;
+    float: left;
+    width: 100%;
+}
+#valorinfo{
+    padding: 1em 0em 1em 0em !important;
+    float: left;
+    width: 100%;
+}
+/* VALOR Result details */
+#valor-result-description {
+    color: #333333;
+    padding: 1em 1em 2em !important;
+    width: 97%;
+}
+
+/* end valor project details */
+/* Valor coordinator details */
+#valorcoordinator{
+    color: #333333;
+    float: left;
+    width: 97%;
+    padding: 1em !important;
+}
+#valorcontact{
+    color: #333333;
+    float: left;
+    width: 97%;
+    padding: 1em !important;
+}
+#valorcoordinatorproperties{
+    color: #333333;
+    float: left;
+    width: 97%;
+    padding: 0.5em
+}
+
+#valorcontactproperties{
+    color: #333333;
+    float: left;
+    width: 97%;
+    padding: 0.5em
+}
+#valorpartnersproperties{
+    color: #333333;
+    float: left;
+    width: 97%;
+    padding: 0.5em
+
+}
+/* end valor coordinator details*/
+#description {
+    color: #333333;
+    /*padding: 4em 1em 2em !important;*/
+    padding: 1em 1em 2em !important;
+    width: 97%;
+    clear: right;
+}
+#creationDate{
+    float:left;
+    padding: 1em !important;
+}
+
+#info{
+    padding: 5em 0em 1em 0em !important;
+}
+
+#coordinatorcontact{
+    color: #333333;
+}
+
+.person-details{
+    padding: 5px !important;
+}
+
+#others {
+    float: left;
+    margin-left: 1em;
+    padding: 0 0 1.5em;
+    width: 97%;
+}
+
+.tags-value {
+    background-color: white;
+    border: 1px none grey;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 1px 1px 1px 1px grey;
+    font-size: 75%;
+    margin: 0 2px;
+    padding: 0 10px;
+}
+
+
+/* TAB 2 - Project */
+#creatorcontact{
+    color: #333333;
+}
+
+#contents{
+    padding: 1em !important;
+    width: 97%;
+}
+
+/* TAB 3 - Partners */
+.partner-organisation{
+    float:left;
+    padding: 0.2em 0em 0em 0em !important;
+}
+.partner-flag{
+    float:right;
+    padding: 0em 0em 0em 0.5em !important;
+
+}
+
+
+
+/* Common styles */
+
+#noresults {
+    color: #0065A2 !important;
+    float: left;
+    font-weight: bold;
+    margin-right: 0.4em;
+    padding: 10px;
+}
+
+.results-additional-info {
+    clear: both;
+    padding: 0 10px 10px 10px;
+}
+
+.twocolumn-left{
+    float: left;
+    width: 49%;
+}
+.twocolumn-right{
+    float: right;
+    width: 49%;
+}
+
+.threecolumn-left{
+    float: left;
+    width: 20%;
+}
+
+.threecolumn-middle {
+    float: left;
+    margin-left: 80px;
+    width: 50%;
+}
+
+.threecolumn-right {
+    float: left;
+    margin-left: 2px;
+    width: 20%;
+}
+
+fieldset{
+    border: 1px solid #0065A2 !important;
+    padding: 5px;
+}
+
+legend{
+    color: #0065A2 !important;
+    font-weight: bold;
+    display:table;
+}
+.label{
+    font-weight: bold;
+
+}
+
+/* Project logo */
+
+#projectLogoContainer {
+    float: right;
+    height: 0;
+    margin: 15px 0 15px 15px;
+}
+
+#projectLogoContainer img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Project badges */
+
+#badges {
+    margin-top: 10px;
+}
+
+.badge {
+    color: #FFF;
+    text-align: center;
+    background: #333 url("../../images/medal.png") no-repeat 5px center;
+    border-radius: 5px;
+    float: left;
+    font-weight: bold;
+    margin-right: 7px;
+    padding: 3px 6px 4px 23px;
+}
+
+.badge-good-practices {
+    background-color: #333;
+}
+
+.project-item-badge {
+    vertical-align: middle;
+    margin-right: 4px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.optionFilter-Region-Note {
+    font-size: 12px;
+}
+
+/* Fix for scrollbars in selectMultiple selects */
+
+.ms-drop.top, .ms-drop.bottom {
+    max-height: 120px !important;
+    overflow-y: scroll !important;
+}
+
+.ms-drop ul {
+    max-height: none !important;
+    overflow: hidden !important;
+}
+
+#optionFilter-OrgType .ms-drop.top, #optionFilter-OrgType .ms-drop.bottom {
+    max-height: 95px !important;
+}
+
+.confidential {
+    color: #888;
+}
+
+@media print {
+    #header {
+        display: none;
+    }
+
+    .main_menu {
+        display: none;
+    }
+
+    .layout {
+        margin: 0 !important;
+        min-width: inherit !important;
+        max-width: inherit !important;
+        width: 100% !important;
+    }
+
+    #full {
+        width: 100% !important;
+    }
+
+    iframe {
+        display: none;
+    }
+}
+
+.projects-disclaimer {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #a4bed4;
+    margin-bottom: 10px;
+}
+
+#pdf-download {
+    position: absolute;
+    background-image: url("../../images/pdfprint.gif");
+    width: 22px;
+    top: 3px;
+    bottom: 3px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    right: 10px;
+    cursor: pointer;
+    z-index: 10000;
+}

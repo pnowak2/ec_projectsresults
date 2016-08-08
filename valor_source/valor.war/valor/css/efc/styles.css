@@ -1,0 +1,638 @@
+/* this file contains styles for WHITE BLUE THEME */
+
+h1, h2, h3 {
+    color:#0875ba; /* these headers have blue colour */
+}
+h4 {
+    color:#666666;
+}
+/* exposed in common template
+a {
+	color:#0875ba;
+}
+a:hover {
+	color:#0875ba;
+}*/
+input, textarea {
+    background:#fff;
+    border:1px solid #b9b9b9;
+    color:#767676; /* this is the text in the input forms */
+}
+input:focus, textarea:focus {
+    background:#f5f5f5;
+}
+blockquote {
+    background:#f5f5f5;
+    color:#a1a1a1;	/* text colour in the blockqoutes */
+}
+.logo-desc, .header-desc { /* this is the italic text used an additional description for headers and detail pages */
+    color:#cacaca;
+}
+#logo a {/* this is the actual logo */
+    background:url(eplus-logo.jpg) no-repeat;
+}
+.main-menu-wrapper {
+    background:url(menu_decoration.gif) no-repeat bottom; /* this represents the line decoration for main menu */
+}
+.jqueryslidemenu ul li ul {
+    border-top:1px solid #efefef; /* border top of first sub level menu */
+}
+.jqueryslidemenu ul li ul li ul {
+    border-top:1px solid #efefef;
+}
+.jqueryslidemenu ul li ul li a {
+    border-bottom:1px solid #efefef;
+    border-left:1px solid #efefef;
+    border-right:1px solid #efefef;
+    background:#fff;
+}
+.jqueryslidemenu ul li ul li a:hover { /* sub menus hover style */
+    background:#fafafa;
+    color:#0875ba;
+}
+.jqueryslidemenu ul li a {
+    color:#7d7d7d;
+}
+.jqueryslidemenu ul li a:hover {
+    background:#fff; /* background of tabs */
+    color:#0875ba;
+}
+.jqueryslidemenu ul .selected a {
+    color:#0875ba;
+}
+.slide-1-desc {
+    background:#0875ba;
+}
+.slide-1-desc h1 {
+    color:#fff;
+}
+.slide-1-desc p { /* text colour in the right side of home slider */
+    color:#fff;
+}
+.slideshow-rm { /* learn more styles in the home slideshow */
+    background:#fff url(slide_arrow.gif) no-repeat 7px 5px;
+}
+.slideshow-rm a {
+    color:#0875ba;
+}
+.slideshow-rm:hover {
+    background:#fff url(slide_arrow.gif) no-repeat 7px 5px;
+}
+.slideshow-rm a:hover {
+    color:#0875ba;
+}
+.slide-txt h3 a, .slide-txt h3 { /* color of text header(with link) with the semi-transparent black background */
+    color:#fff;
+    text-decoration:none;
+}
+#right .latest-news, #right .newsletter, #right .brochure, #right .tabular-block, #right .flickr,
+#right .blog-categ, #right .services-box, #right .aboutus-box, #right .address-box, #right .facebook-like {
+    border-left:8px solid #efefef; /* border colour that separates left from right container */
+    padding-left: 10px;
+}
+.ln-list li h6 a, .ln-list li h6 a { /* colour for latest news headers box */
+    color:#828282;
+}
+.ln-list li h6 a:hover {
+    text-decoration:none;
+}
+/* hover backgrounds for home news list and brochure, these 2 should be the same but I wrote them separately just in case */
+.ln-list li:hover {
+    background:#f5f5f5;
+}
+.brochure:hover {
+    background:#f5f5f5;
+}
+/* end hover backgrounds */
+
+.ln-date,  /* latest news date colour */
+    /* next 2 classes are for article's date and comments in the blog section */
+.blog-misc,
+.blog-misc a,
+.blog-list-misc,
+.blog-list-misc a,
+.ih-rss a, /* rss text on news page */
+.newslist-date /* news date text on news page */ {
+    color:#a1a1a1;
+}
+.copyright a {
+    color:#666666;
+}
+.newslist-cat{
+    color:#0875BA;
+}
+/* START: read more / reverse arrow button that is found in the normal body gets those properties */
+.body-rm {
+    background:#a3a3a3 url(input_arrow.gif) no-repeat 3px 1px;
+}
+.body-rm a {
+    color:#fff;
+    text-decoration:none;
+}
+.body-rm a:hover {
+    color:#fff;
+}
+.body-rm:hover { /* read more button hover styles */
+    background:#0875ba url(input_arrow.gif) no-repeat 3px 1px;
+}
+.reverse-arrow { /* button with reversed arrow style, used for pagination */
+    background:#a3a3a3 url(reverse_arrow.gif) no-repeat 3px 1px;
+}
+.reverse-arrow a {
+    color:#fff;
+    text-decoration:none;
+}
+.reverse-arrow:hover {
+    background:#0875ba url(reverse_arrow.gif) no-repeat 3px 1px;
+}
+/* END: read more body buttons styles */
+
+/* START footer styles */
+#footer {
+    background:url(footer_decoration.gif) no-repeat top center; /* this represents the line decoration for footer */
+}
+#footer ul li a { /* footer menu normal state colours */
+    color:#666666;
+}
+#footer ul li a:hover { /* footer menu hover state colours */
+    color:#0875ba;
+}
+/* END footer styles */
+
+.interior-header {
+    background:#f5f5f5;
+}
+.intheader-paragraph {
+    color:#a1a1a1;
+}
+#left .interior-content .interior-list li {
+    background:url(body_arrow.gif) no-repeat 3px 6px;
+}
+/* START table styles */
+.tbl thead tr td { /* table header background */
+    background:#a3a3a3;
+    color:#fff;
+}
+.tbl tbody tr td { /* table row line */
+    border-bottom:1px solid #dadada;
+}
+.tbl .odd td { /* table background for odd rows 1, 3, 5... */
+    background:#fff;
+}
+.tbl .even td { /* table background for even rows 2, 4, 6... */
+    background:#f5f5f5;
+}
+/* END table styles */
+
+/* START tabular data */
+.ui-tabs .ui-tabs-nav li a {
+    /* default tab */
+    background:#efefef;
+    color:#828282;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+    background:#a3a3a3;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a {
+    /* active or selected tab */
+    background-color:#a3a3a3;
+    color:#fff;
+}
+/* END tabular data */
+.img-border {
+    border:6px solid #efefef;
+}
+.img-border:hover {
+    border:6px solid #cacaca;
+}
+.blog-misc a:hover {
+    text-decoration:underline;
+}
+/* general input buttons for search and newsletter forms, they might have same styles with blog/comments submit buttons */
+.input-arrow {
+    background:#a3a3a3 url(input_arrow.gif) no-repeat;
+}
+.input-arrow:hover { /* mouseover colour on submit arrow for forms */
+    background:#0875ba url(input_arrow.gif) no-repeat;
+}
+/* START blog comment form styles */
+.bc-submit, .contact-submit {
+    background:#a3a3a3 url(input_arrow.gif) no-repeat;
+    color:#fff;
+}
+.bc-submit:hover, .contact-submit:hover {
+    background:#0875ba url(input_arrow.gif) no-repeat;
+}
+/* END blog comment form styles */
+
+/* START blog right menu */
+.blog-categ ul li a {
+    border-bottom:1px solid #efefef;
+    color:#828282;
+}
+.blog-categ ul li a:hover {
+    background:#f5f5f5;
+    border-bottom:1px solid #cacaca;
+    color:#0875ba;
+    text-decoration:none;
+}
+/* END blog right menu */
+.blog-entry h2 a {
+    color:#0875ba;
+    text-decoration:none;
+}
+.pagination .page-number {
+    color:#a1a1a1;
+}
+.services-box-list li, .tag-list li {
+    background:url(body_arrow.gif) no-repeat 3px 6px;
+}
+.address-box span {
+    color:#a7a7a7;
+}
+.address-box address span {
+    color:#666666;
+}
+#left .interior-content .newslist-wrapper li h4 a, .portfolio-wrapper li h4 a {
+    color:#666666;
+    text-decoration:none;
+    /* these styles apply to header titles from list news and portfolio list */
+}
+.h-services-list li {
+    background:url(body_arrow.gif) no-repeat 2px 5px;
+}
+/* error messages styles */
+.contact-error {
+    border:1px solid #eda0a0;
+    background:#fde3e3;
+}
+.contact-error-value {
+    color: #CC3333;
+}
+.contact-success {
+    border:1px solid #bae5cb;
+    background:#daffe9;
+}
+.contact-jerror {
+    color:#ff502d;
+    float:left;
+    line-height:16px;
+    margin:0 0 0 10px;
+    width:180px;
+}
+.title-en {
+    background-image: url(ec-banner-education_en.gif);
+}
+/* advanced search form */
+.landing-page-fieldset {
+    color: #074A8B;
+    font-size: larger;
+    margin: -66px 30px 0;
+    padding: 12px;
+    position: relative;
+    top: -95px;
+}
+.landing-page-fieldset h3 {
+    color: #074A8B;
+    font-size: 2em;
+}
+.dataTables_wrapper h3, landing-page-fieldset h3 {
+    color: #074A8B;
+    font-size: 2em;
+    margin: 0 0 10px;
+}
+.landing-page-fieldset input, textarea {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C5C3AD;
+    color: #868686;
+    margin: 4px 0;
+    padding: 4px;
+}
+
+/* ADAPTATIONS 18/11/2014 marjavi
+body {
+    background: url("../../images/background_top.gif") repeat-x scroll left top #FFDB73;
+    color: #49494A;
+    font-size: 0.625em;
+}
+.layout {
+    margin: 0;
+    max-width: 100%;
+    min-width: 100%;
+}
+.layout {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+}
+*::-moz-selection {
+    background-color: #0077C8;
+    color: #FFFFFF;
+}
+.layout-footer {
+    background: url("../../images/background_top.gif") repeat-x scroll left top #FFDB73;
+    clear: both;
+    color: #0077C8;
+    margin-top: 40px;
+    position: relative;
+}
+.footer_container {
+    margin: 0 auto;
+    width: 984px;
+}
+.layout-body {
+    position: static;
+	background-color: #FFDB73;
+}
+#header, #path, .layout-body {
+    float: none;
+    margin: 0 auto;
+    max-width: 984px;
+    min-width: 770px;
+    width: 984px;
+}
+.main_menu {
+    background: none repeat scroll 0 0 #0077C8;
+    margin-left: -29px;
+	margin-top: -35px;
+    position: relative;
+    width: 1012px;
+    z-index: 9;
+}
+.main_menu div.homepage_item a {
+    background: url("picto_homepage.png") no-repeat scroll center center transparent;
+    border-top: 2px solid #0077C8;
+    display: block;
+    height: 18px;
+    outline: medium none;
+    padding: 12px 6px;
+    text-indent: -9999px;
+    width: 20px;
+}
+#full {
+	float:left;
+	margin-top: -15px;
+	margin-left: -15px;
+	width:985px;
+}
+.newslist-wrapper {
+    float: left;
+    font-size: 115%;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    text-align: justify;
+    width: 90%;
+}*/
+/* Comment these 2 styles to revert to the previous landing text style
+.interior-content {
+	background: none repeat scroll 0 0 #FFFFFF;
+    overflow: visible;
+    padding-top: 0;
+	box-shadow: 2px 2px 2px rgba(27, 54, 58, 0.35);
+    float: left;
+    position: relative;
+    margin-bottom: 40px;
+    width : 99.9%;
+}
+#diss-title-text {
+	background-color: #0077C8;
+	box-shadow: 2px 2px 2px rgba(27, 54, 58, 0.35);
+	color: white;
+	font-weight: bold;
+	margin-right: 535px;
+	margin-top: -60px;
+}*/
+/* Comment these 2 styles to revert to the previous data table style
+#dynamic table {
+    background-color: #FFFFFF;
+    border-collapse: separate !important;
+    border-spacing: 6px !important;
+    box-shadow: 2px 2px 2px rgba(27, 54, 58, 0.35);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    overflow: visible;
+}
+.paging_full_numbers {
+    background-color: transparent;
+}
+.article-body {
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 98%;
+}*/
+
+/* Overrides from MAERTENS Christophe */
+
+/* Fixes home icon top border problem */
+.main_menu div.homepage_item a {
+    border-top: inherit;
+}
+
+body {
+    color: #000;
+    font-family: Verdana, Arial, Helvetica, "DejaVu Sans", sans-serif;
+    font-size: 62.5%;
+    line-height: 1.3;
+    font-size: 0.625em;
+    color: #49494A;
+    /*background: url('http://ec.europa.eu/programmes/erasmus-plus/images/background_top.gif') left top repeat-x #fff;*/
+    background-color: #ddd;
+}
+
+#body-wrapper {
+    margin: 0 auto;
+}
+
+.layout-body {
+    background-color: #fff;
+    background-repeat: no-repeat;
+}
+
+.layout-content {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.main_menu {
+    background: none repeat scroll 0 0 #0077C8;
+    margin-left: -30px;
+    margin-top: 0;
+    position: relative;
+    width: 1012px;
+    z-index: 9999;
+}
+
+.layout {
+    min-width: 770px;
+    max-width: 984px;
+    margin: 0 auto;
+    font-size: 120%;
+    /* background-color: #fff; */
+    /* border: 1px solid #369; */
+    border-top: 0;
+}
+
+.main_menu div.homepage_item a {
+    display: block;
+    height: 18px;
+    outline: medium none;
+    padding: 12px 6px;
+    text-indent: -9999px;
+    width: 20px;
+}
+
+div.main_menu ul li:hover div.level_1 a {
+    background: none repeat scroll 0 0 #bf8130;
+    text-decoration: none;
+}
+
+div.main_menu ul li:hover > div.level_1.homepage_item a:hover {
+    background: url("picto_homepage.png") no-repeat scroll center center #bf8130;
+}
+
+.layout-footer {
+    /* background: none repeat scroll 0 0 #D9F0F6; */
+    clear: both;
+    color: #356471;
+    margin-top: 40px;
+    position: relative;
+}
+
+.newslist-wrapper {
+    float: left;
+    padding-bottom: 10px;
+    text-align: justify;
+    width: 90%;
+    font-size: 115%;
+    margin-top: -45px;
+}
+
+.layout-footer {
+    /* clear: both; */
+    /* padding: 15px 0; */
+    /* text-align: center; */
+    /* color: #396ea2; */
+    margin-top: 40px;
+    position: relative;
+    background: #FFCE40;
+    color: #0077C8;
+    clear: both;
+}
+
+.footer_container h4 {
+    border-bottom: 2px solid #FFFFFF;
+    color: #0077C8;
+    font-size: 110%;
+    font-weight: normal;
+    padding-bottom: 0;
+    width: 100%;
+    padding-left: 4px;
+}
+
+.newslist-wrapper li {
+    float: left;
+    width: 100%;
+    margin: 12px 0 24px 0;
+}
+
+.layout {
+    min-width: 770px;
+    max-width: 984px;
+    margin: 0px auto;
+    font-size: 120%;
+    background-color: #FFDB73;
+    border-right: 0px solid #369;
+    border-width: 0px 0px 0px;
+    border-style: none none none;
+    border-color: -moz-use-text-color #369 #369;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+}
+
+.footer_block_3 ul li {
+    background: none repeat scroll 0px 0px #ffdb73;
+}
+
+.footer_block_3 ul li a {
+    color: inherit;
+}
+
+/* Badges */
+
+.badge-success-stories {
+    background-color: #0077C8;
+}
+
+.efc-projects-disclaimer {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #eee;
+}
+
+/* Footer */
+.efc-footer {
+    background: #204060 ; /* Old browsers */
+    background: -moz-linear-gradient(top, #204060   0%, #3D6D9D 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #204060   0%,#3D6D9D 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #204060   0%,#3D6D9D 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#204060', endColorstr='#3D6D9D',GradientType=0 ); /* IE6-9 */
+    padding: 25px 40px;
+    clear: both;
+    font-size: 11px;
+}
+
+.efc-footer:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+
+.efc-footer-column {
+    float: left;
+    margin-right: 30px;
+    width: 270px;
+}
+
+.efc-footer-column__header {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+
+.efc-footer-column__items {
+    padding: 0;
+    list-style: square inside;
+}
+
+.efc-footer__column-item {
+    margin: 3px 0;
+}
+
+.efc-footer-column__items,
+.efc-footer__link-item,
+.efc-footer__link-item:hover,
+.efc-footer__link-item:focus,
+.efc-footer__link-item:active,
+.efc-footer__link-item:visited {
+    color: #AEC6DA;
+}
+
+@media print {
+    #header, .main_menu,  .efc-banner, .efc-tabs, .efc-footer {
+        display: none;
+    }
+
+    .prunecluster {
+        background-color: transparent !important;
+    }
+
+    .prunecluster-small div, .prunecluster-medium div, .prunecluster-large div {
+        border: 1px solid black;
+    }
+}
