@@ -1,7 +1,0 @@
-<webscript>
-  <shortname>ElasticSearch search and export as CSV</shortname>
-  <description>ElasticSearch search and export as CSV</description>
-  <url>/es/exportcsv</url>
-  <authentication>none</authentication>
-  <format default="csv"></format>
-</webscript>

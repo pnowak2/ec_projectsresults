@@ -1,8 +1,0 @@
-<webscript>
-  <shortname>ElasticSearch search for Map</shortname>
-  <description>ElasticSearch search for Map</description>
-  <url>/es/search/map</url>
-  <authentication>none</authentication>
-<format default ="json"></format>
-</webscript>
-

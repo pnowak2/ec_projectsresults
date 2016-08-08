@@ -1,8 +1,0 @@
-<webscript>
-  <shortname>ElasticSearch delete doc</shortname>
-  <description>ElasticSearch delete doc</description>
-  <url>/es/delete</url>
-  <authentication>none</authentication>
-<format default ="json"></format>
-</webscript>
-

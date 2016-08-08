@@ -1,8 +1,0 @@
-<webscript>
-  <shortname>ElasticSearch search</shortname>
-  <description>ElasticSearch search</description>
-  <url>/es/search</url>
-  <authentication>none</authentication>
-  <format default ="json"></format>
-</webscript>
-

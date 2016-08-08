@@ -1,7 +1,0 @@
-<webscript>
-  <shortname>ElasticSearch search and export as Excel</shortname>
-  <description>ElasticSearch search and export as Excel</description>
-  <url>/es/exportexcel</url>
-  <authentication>none</authentication>
-  <format default=""></format>
-</webscript>

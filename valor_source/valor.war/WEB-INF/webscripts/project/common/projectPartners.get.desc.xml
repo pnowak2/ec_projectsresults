@@ -1,6 +1,0 @@
-<webscript>
-  <shortname>Get project partners for an specific project</shortname>
-  <description>Get project partners for an specific project</description>
-  <url>/es/project/partners</url>
-  <format default ="json"></format>
-</webscript>

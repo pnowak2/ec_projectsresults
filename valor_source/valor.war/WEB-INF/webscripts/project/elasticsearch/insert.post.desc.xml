@@ -1,8 +1,0 @@
-<webscript>
-  <shortname>ElasticSearch insert doc</shortname>
-  <description>ElasticSearch insert doc</description>
-  <url>/es/insert</url>
-  <authentication>none</authentication>
-<format default ="json"></format>
-</webscript>
-

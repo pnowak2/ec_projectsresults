@@ -1,6 +1,0 @@
-<webscript>
-  <shortname>Get PDF from project card</shortname>
-  <description>Get PDF from project card</description>
-  <url>/es/project/pdf</url>
-  <format default =""></format>
-</webscript>
