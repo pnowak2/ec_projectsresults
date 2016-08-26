@@ -940,7 +940,7 @@ input[type="reset"] {
     background: #292929;
     margin: 0;
     text-align: left;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
 }
 .layout-footer.jumbtron {
     background: white;
@@ -2119,7 +2119,6 @@ ul.menu {
     .ec-flat-logo {
         width: 80%;
         float: right;
-        padding-right: 5px;
         display: block;
     }
 }
@@ -2910,4 +2909,48 @@ i.flaticon-award53 {
     text-transform: none;
     color: black;
     margin-top:8px;
+}
+
+@media (max-width: 1199px)  {
+.smenu {
+    margin-left: -11px !important;
+    margin-top: -28px;}
+.legal {
+    margin-left: -19px;
+}
+
+.ce-footer__column {
+    width:100%;
+}
+
+.layout-footer.jumbotron {
+    padding-bottom:0px;
+}
+.footer--last-update--wrapper {
+    text-align:center;
+}
+}
+
+@media (max-width: 1199px) {
+.smenu {
+    margin-left: -11px !important;
+    margin-top: -28px;}
+.legal {
+    margin-left: -19px;
+}
+
+.ce-footer__column {
+    width:500%;
+}
+
+.layout-footer.jumbotron {
+    padding-bottom:0px;
+}
+.footer--last-update--wrapper {
+    text-align:center;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .smenu { margin-top:-4px !important;}
 }
