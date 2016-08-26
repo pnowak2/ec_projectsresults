@@ -43,8 +43,6 @@
                                                     'margin-top': '5px'
                 });
              });
-            $('.details').css( 'cursor', 'pointer' );
-
          });
       </script>
       <script>
@@ -52,31 +50,6 @@
             $('#tabs').tab();
          });
       </script>
-      <script>
-$(document).ready(function () {
-    // Load the first 3 list items from another HTML file
-    //$('#myList').load('externalList.html li:lt(3)');
-    $('#Flags li:lt(3)').show();
-
-    $('#showLess').hide();
-    var items =  25;
-    var shown =  3;
-    $('#loadMore').click(function () {
-        $('#showLess').show();
-        shown = $('#Flags li:visible').size()+28;
-        if(shown< items) {$('#Flags li:lt('+shown+')').show();}
-        else {$('#Flags li:lt('+items+')').show();
-             $('#loadMore').hide();
-             }
-    });
-    $('#showLess').click(function () {
-        $('#Flags li').not(':lt(3)').hide();
-        $('#loadMore').show();
-        $('#showLess').hide();
-    });
-});
-      </script>
-      
       <script src="bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>   
       <script src="scripts/tabs.js"></script>
       <script src="scripts/dropdownanimation.js"></script>
@@ -127,7 +100,7 @@ $(document).ready(function () {
          <li class="heading-nav-bar col-xs-7">
             <h1>Creative Europe</h1>
          </li>
-         <li class="col-xs-3">
+         <li class="col-xs-4">
             <img class="ec-flat-logo" src="images/mobile-flat-ec-logo.svg" alt="Creative-Europe Projects Results">
          </li>
       </ul>
@@ -135,19 +108,19 @@ $(document).ready(function () {
       <!-- Start : Main Layout -->
       <div class="layout" id="layout">
          <!--START: Banner area-->
-         <div class="jumbotron mega-banner prbanner">
+         <div class="jumbotron mega-banner">
             <div class="container">
                <!-- START : Menu -->
                <div class="row ecFontReg menulinks">
-                  <div class="col-md-6 col-xs-6 fitemmenu">
+                  <div class="col-md-6 col-xs-12 fitemmenu">
                      <a href="index_en.htm" class="mitem">
                      <i class="flaticon-house204"></i>
                      </a>
-                     <a href="legal.htm" class="mitem">
+                     <a href="legal.htm" class="mitem legal">
                      Legal issues
                      </a>
                   </div>
-                  <div class="col-md-4 col-md-offset-2 smenu" style="text-align:right;">
+                  <div class="col-xs-12 col-md-4 col-md-offset-2 smenu" style="text-align:right;">
                      <a href="#">
                      <i class="flaticon-key60"></i>Login
                      </a>
